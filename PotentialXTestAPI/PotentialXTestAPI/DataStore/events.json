@@ -1,0 +1,51 @@
+[
+  
+  {
+    "FirstName": "Bruce",
+    "LastName": "Wayne",
+    "DateOfBirth": "1960-03-06T00:00:00",
+    "EventName": "Hip replacement",
+    "EventDescription": "Hip replacement surgery performed by Dr.X",
+    "CreatedDateTime": "2021-09-06T00:00:00"
+  },
+  {
+    "FirstName": "Peter",
+    "LastName": "Willis",
+    "DateOfBirth": "1963-03-06T00:00:00",
+    "EventName": "MRI",
+    "EventDescription": "MRI scan conducted by Mr.Y",
+    "CreatedDateTime": "2021-09-06T00:00:00"
+  },
+  {
+    "FirstName": "Mike",
+    "LastName": "Horton",
+    "DateOfBirth": "1986-05-09T00:00:00",
+    "EventName": "Heart rate",
+    "EventDescription": "Initial checkup for chest pain",
+    "CreatedDateTime": "2021-09-06T00:00:00"
+  },
+  {
+    "FirstName": "Mike",
+    "LastName": "Horton",
+    "DateOfBirth": "1986-05-09T00:00:00",
+    "EventName": "Blood pressure",
+    "EventDescription": "Follow up blood pressure test after chest pain",
+    "CreatedDateTime": "2021-10-06T00:00:00"
+  },
+  {
+    "FirstName": "Bruce",
+    "LastName": "Wayne",
+    "DateOfBirth": "1960-01-01T00:00:00",
+    "EventName": "Follow up",
+    "EventDescription": "Hip replacement surgery follow up",
+    "CreatedDateTime": "2021-10-06T00:00:00"
+  },
+  {
+    "FirstName": "Bruce",
+    "LastName": "Wayne",
+    "DateOfBirth": "1960-01-01T00:00:00",
+    "EventName": "Final checkup",
+    "EventDescription": "Hip replacement surgery Final checkup",
+    "CreatedDateTime": "2021-11-06T00:00:00"
+  }
+]

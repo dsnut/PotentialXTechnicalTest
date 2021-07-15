@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "95c3c13b-6b0a-49d3-bf19-b60b357a91c6",
+		"name": "D:\\Github\\PotentialXTest",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "AddEvent",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n    \"firstName\" : \"Bruce\",\r\n    \"lastName\" : \"Wayne\",\r\n    \"dateOfBirth\" : \"1960-01-01\",\r\n    \"eventName\" : \"Final checkup Part 1\",\r\n    \"eventDescription\" : \"Hip replacement surgery Final checkup part 1\",\r\n    \"createdDateTime\" : \"2021-06-12\"\r\n  }"
+				},
+				"url": {
+					"raw": "http://localhost:65153/persons/events",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "65153",
+					"path": [
+						"persons",
+						"events"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

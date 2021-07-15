@@ -1,0 +1,31 @@
+﻿@model IList<Person>
+@{
+    ViewData["Title"] = "Person page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Persons data</h1>
+</div>
+<div class="table-responsive-md">
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Person Name</th>
+                <th scope="col">Date of birth</th>
+                <th scope="col">Date Created</th>
+                <th scope="col">Check Events</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var person in Model)
+            {
+                <tr>
+                    <td>@person.FirstName @person.LastName</td>
+                    <td>@person.DateOfBirth</td>
+                    <td>@person.CreatedDateTime</td>
+                    <td>@Html.ActionLink("Events", "Events", new { firstName = person.FirstName, lastName = person.LastName, Dob = person.DateOfBirth })</td>
+                </tr>
+            }
+            </tbody>
+    </table>
+</div>

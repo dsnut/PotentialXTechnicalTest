@@ -1,0 +1,21 @@
+//This is a test data store for this exercise, this data can be sotred in a DB or any other source
+[
+  {
+    "firstName": "Bruce",
+    "lastName": "Wayne",
+    "dateOfBirth": "01-01-1960",
+    "createdDateTime": "09-06-2021"
+  },
+  {
+    "firstName": "Peter",
+    "lastName": "Willis",
+    "dateOfBirth": "03-06-1963",
+    "createdDateTime": "09-06-2021"
+  },
+  {
+    "firstName": "Mike",
+    "lastName": "Horton",
+    "dateOfBirth": "05-09-1986",
+    "createdDateTime": "09-06-2021"
+  }
+]

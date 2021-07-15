@@ -1,0 +1,10 @@
+curl --location --request POST 'http://localhost:65153/persons/events' \
+--header 'Content-Type: application/json' \
+--data-raw ' {
+    "firstName" : "Bruce",
+    "lastName" : "Wayne",
+    "dateOfBirth" : "1960-01-01",
+    "eventName" : "Final checkup Part 1",
+    "eventDescription" : "Hip replacement surgery Final checkup part 1",
+    "createdDateTime" : "2021-06-12"
+  }'
